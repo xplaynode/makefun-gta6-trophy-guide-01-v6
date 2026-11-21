@@ -19,6 +19,9 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
+// Entry: Leonida Night Ledger v6 — the v3-shape re-authoring (dark ledger, three-pane, 385 cited steps, 26 disputes).
+const ENTRY_TITLE = 'Leonida Night Ledger v6';
+void ENTRY_TITLE;
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
